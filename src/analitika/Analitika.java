@@ -11,11 +11,15 @@ package analitika;
  */
 public class Analitika {
 
-    /**
-     * @param args the command line arguments
-     */
+    double x;
+    double y;
+    
+    public Analitika (double x ,double y ){
+        this.x = x;
+        this.y = y;
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
