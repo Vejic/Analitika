@@ -19,7 +19,9 @@ public class Analitika {
         this.y = y;
     }
     public static void main(String[] args) {
-        
+        Analitika tacka = new Analitika(7.65 , 3.42);
+        System.out.println(tacka.x);
+        System.out.println(tacka.y);
     }
     
 }
